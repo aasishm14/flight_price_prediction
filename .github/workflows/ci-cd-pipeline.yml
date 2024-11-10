@@ -23,7 +23,7 @@ jobs:
       run: pip install pandas scikit-learn joblib flask
 
     - name: Run model script
-      run: python ml_model.py
+      run: python flight_price_ML_model.py
 
     - name: Build Docker image
       run: docker build -t ml-model .
