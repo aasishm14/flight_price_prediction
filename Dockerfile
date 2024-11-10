@@ -2,7 +2,8 @@ FROM python:3.8-slim
 
 WORKDIR /app
 
-COPY ml_model.py .
+# Update this line with the new file name
+COPY flight_price_ML_model .  
 COPY app.py .
 COPY requirements.txt .
 
@@ -12,4 +13,5 @@ COPY *.joblib .
 RUN pip install -r requirements.txt
 
 CMD ["python", "app.py"]
+
 
