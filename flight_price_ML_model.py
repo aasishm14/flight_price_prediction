@@ -161,13 +161,13 @@ models = {
     'Linear Regression': LinearRegression(),
     'Ridge Regression': Ridge(alpha=1.0),
     'Lasso Regression': Lasso(alpha=0.1),
-    #'Random Forest Regressor': RandomForestRegressor(n_estimators=100, random_state=42),
-    #'SVR': SVR(kernel='rbf'),
-    #'K-Nearest Neighbors': KNeighborsRegressor(n_neighbors=5),
-    #'Gradient Boosting Regressor': GradientBoostingRegressor(n_estimators=100, random_state=42),
-    #'XGBoost Regressor': xgb.XGBRegressor(objective='reg:squarederror', n_estimators=100),
-    #'CatBoost Regressor': catboost.CatBoostRegressor(iterations=100, learning_rate=0.1, depth=6, verbose=0),
-    #'LightGBM Regressor': lgb.LGBMRegressor(n_estimators=100, learning_rate=0.1)
+    'Random Forest Regressor': RandomForestRegressor(n_estimators=100, random_state=42),
+    'SVR': SVR(kernel='rbf'),
+    'K-Nearest Neighbors': KNeighborsRegressor(n_neighbors=5),
+    'Gradient Boosting Regressor': GradientBoostingRegressor(n_estimators=100, random_state=42),
+    'XGBoost Regressor': xgb.XGBRegressor(objective='reg:squarederror', n_estimators=100),
+    'CatBoost Regressor': catboost.CatBoostRegressor(iterations=100, learning_rate=0.1, depth=6, verbose=0),
+    'LightGBM Regressor': lgb.LGBMRegressor(n_estimators=100, learning_rate=0.1)
 }
 
 results = []

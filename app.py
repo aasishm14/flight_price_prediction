@@ -8,7 +8,14 @@ app = Flask(__name__)
 models = {
     'Linear Regression': joblib.load('linear_regression_model.joblib'),
     'Ridge Regression': joblib.load('ridge_regression_model.joblib'),
-    'Lasso Regression': joblib.load('lasso_regression_model.joblib')
+    'Lasso Regression': joblib.load('lasso_regression_model.joblib'),
+    'Random Forest Regressor': joblib.load('random_forest_model.joblib'),
+    'SVR': joblib.load('svr_model.joblib'),
+    'K-Nearest Neighbors': joblib.load('knn_model.joblib'),
+    'Gradient Boosting Regressor': joblib.load('gbr_model.joblib'),
+    'XGBoost Regressor': joblib.load('xgb_model.joblib'),
+    'CatBoost Regressor': joblib.load('catboost_model.joblib'),
+    'LightGBM Regressor': joblib.load('lgbm_model.joblib')
 }
 
 @app.route('/')
