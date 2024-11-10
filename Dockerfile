@@ -3,7 +3,7 @@ FROM python:3.8-slim
 WORKDIR /app
 
 # Update this line with the new file name
-COPY flight_price_ML_model .  
+COPY flight_price_ML_model.py .  
 COPY app.py .
 COPY requirements.txt .
 
